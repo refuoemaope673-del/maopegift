@@ -1,0 +1,102 @@
+.even{
+	background-color: seagreen;
+    height: 100PX;
+    color: black;
+
+
+}
+	.container {
+         background-color: white;
+
+   
+
+
+}
+
+a{
+    padding: 15px 40px;
+    border: 1px solid #00e5ff;
+    border-radius: 50px;
+    background: transparent;
+    color: #00e5ff;
+    cursor: pointer;
+    transition: 2s;
+    text-decoration: none;
+    box-shadow: 0 3px 34px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    
+}
+a:hover {
+    color: #071014;
+    box-shadow: 0 0 20px #00e5ff;
+    transform: translate(-5px);
+    m
+
+}
+a:hover::before{
+    width: 350px;
+    height: 350px;
+    
+
+
+}
+
+
+}
+a{
+    background-attachment: fixed;
+}
+body{
+     margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        blue 0%,
+        blue 33.33%,
+        white 33.33%,
+        white 66.66%,
+        green 66.66%,
+        green 100%);
+    background-attachment: fixed;
+
+}
+@media (max-width: 768px){
+    nav a{
+        margin: 7px;
+    }
+    .even{
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    input, textarea,select{
+        width: 100%;
+
+    }
+}
+@media (max-width: 480px){
+    body{
+        font-size: 16px;
+    }
+    h1,h2,h3,h4{
+        font-size: 16px;
+    }
+    nav{
+        padding: 10px;
+
+    }
+    button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.footer{
+    border-radius: 5px;
+}
+
